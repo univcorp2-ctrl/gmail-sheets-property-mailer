@@ -9,7 +9,12 @@ Google Sheets + Google Apps Script で、物件情報をメール配信するた
 個人 Gmail / 無料 Apps Script では送信可能数が小さいため、1,000名以上への毎日配信には向きません。  
 このコードでは安全のため、デフォルトで1回あたりの送信上限を `MAX_SEND_PER_RUN` で制限しています。
 
-1,000名以上へ本番配信する場合は、SendGrid、Amazon SES、Mailchimp、Brevo などのメール配信サービスを使う構成に移行してください。
+1,000名以上へ本番配信する場合は、Google Sheets を配信リストDBとして使い続け、実際の送信部分だけ SendGrid、Amazon SES、Brevo、Mailchimp などのメール配信サービス/APIに移行してください。
+
+詳しくは以下を参照してください。
+
+- [大量配信する場合の整理](docs/BULK_SENDING.md)
+- [法務・到達率チェックリスト](docs/COMPLIANCE_CHECKLIST.md)
 
 ## できること
 
@@ -49,6 +54,12 @@ Google Sheets + Google Apps Script で、物件情報をメール配信するた
 - `status` が `active`
 - `consent` が `yes`
 
+大量配信に移行する場合は、以下の列を追加することを推奨します。
+
+```text
+source,opt_in_at,opt_in_method,unsubscribe_token,provider_contact_id,delivery_status,last_error
+```
+
 ### Listings
 
 | id | title | price | area | layout | station | url | comment | status | sent_at |
@@ -83,12 +94,28 @@ Google Sheets + Google Apps Script で、物件情報をメール配信するた
 - 本文に配信停止方法を必ず入れる
 - BCC一括送信は使わない
 
+## 大量配信の方針
+
+個人の無料 Gmail で1,000名以上に毎日送る構成は非推奨です。  
+大量配信では、以下の役割分担にしてください。
+
+```text
+Google Sheets = 名簿・物件・停止状態の管理
+Apps Script   = 対象抽出・本文生成・API連携
+配信サービス  = 実送信・バウンス処理・配信停止・到達率管理
+```
+
+詳しくは [docs/BULK_SENDING.md](docs/BULK_SENDING.md) を参照してください。
+
 ## ファイル構成
 
 ```text
 .
 ├── README.md
 ├── appsscript.json
+├── docs/
+│   ├── BULK_SENDING.md
+│   └── COMPLIANCE_CHECKLIST.md
 ├── src/
 │   └── Code.js
 └── samples/
