@@ -1,0 +1,26 @@
+分類,group,company,contact_name,email,domain,category,confidence,notes
+売買仲介,A,株式会社キーボ,小峠 亮,kotouge@ki-bo.co.jp,ki-bo.co.jp,売買仲介/建築相談,high,大田区本羽田1丁目の土地・建物プラン相談（アットホーム経由）
+売買仲介,A,東急リバブル,佐藤日向,hyuga-sato@ma.livable.jp,ma.livable.jp,売買仲介,high,平3丁目売地資料のやり取り
+売買仲介,A,だるま不動産株式会社,石井康晴,ishii@daruma-fudousan.com,daruma-fudousan.com,売買仲介,high,千束4丁目売地・2番手申込の相談あり
+売買仲介,A,株式会社中央住宅/ポラスグループ,島倉 拓美,04972shimakura-dr@polus.co.jp,polus.co.jp,売買仲介/建築相談,high,東日暮里6丁目土地・建築プラン・複数回やり取り
+売買仲介,A,栄和エステート株式会社,平井魁靖,hirai@eiwaestate.co.jp,eiwaestate.co.jp,売買仲介,high,東武練馬の土地資料・擁壁確認
+売買仲介,A,株式会社DL,日髙 健司,hidaka@dl-estate.jp,dl-estate.jp,売買仲介/収益物件,high,新規物件の価格交渉相談
+売買仲介,B,株式会社AZ不動産,野崎 孝之,t.nozaki@az-group.co.jp,az-group.co.jp,収益物件仲介,high,収益物件情報の資料請求先署名（送信済み確認なし）
+売買仲介,B,株式会社AZ不動産,杉浦 太亮,t.sugiura@az-group.co.jp,az-group.co.jp,収益物件仲介,high,同一会社の別担当
+売買仲介,B,株式会社AZ不動産,柴垣 誠,m.shibagaki@az-group.co.jp,az-group.co.jp,収益物件仲介,high,春日井市収益物件情報の署名
+売買仲介,B,株式会社my.,榎本,info@myestate-5963.com,myestate-5963.com,収益物件仲介/管理,high,越谷市1棟アパート紹介・宅建業登録署名あり
+売買仲介,B,株式会社IPA不動産,森 健一,bukkenjoho@ipafudousan.jp,ipafudousan.jp,収益物件仲介,high,千葉市若葉区/佐倉市の販売資料添付
+売買仲介,B,株式会社住建興業,金,j-kim@k-jyuken.com,k-jyuken.com,収益物件仲介,high,名古屋市北区一棟マンション紹介
+売買仲介,B,クリスティ&富士企画,礒田,isoda@christy.co.jp,christy.co.jp,収益物件仲介,high,築28年RC造の物件紹介・担当署名あり
+売買仲介,B,SKホームプロパティ,綱木 順也,j.tsunaki@skhome-pro.jp,skhome-pro.jp,新築戸建/土地・建物プラン,high,新宿区建物プラン付き物件の案内
+売買仲介,B,きらめき不動産株式会社,今野,inc-sales@kilameki.co.jp,kilameki.co.jp,収益物件仲介,high,横浜市旭区OC区分のおすすめ物件
+売買仲介,B,TAKAMEL/東京トラスト系,森田 辰己,morita@tokyott.co.jp,tokyott.co.jp,収益物件仲介,medium,横浜市戸塚区の非公開投資物件紹介（差出人asset@aqutics.jpと署名ドメイン不一致）
+売買仲介,B,株式会社AVANTIA,札辻 要,kaname_fudatsuji@avantia-g.co.jp,avantia-g.co.jp,不動産交流会/宅建業者,medium,池袋不動産交流会の案内・宅建士署名あり
+売買仲介(配信専用),B,明和地所の仲介 吉祥寺店,,no-reply@mg.kasika-mail.jp,mg.kasika-mail.jp,売買仲介/物件情報,medium,新着物件情報メール・no-replyのため返信不可
+賃貸管理,A,株式会社ハウジングエステート,及川 浩行,h-oikawa@housing-e.jp,housing-e.jp,賃貸管理/客付け,high,仙台前ルートの管理・募集・申込対応で継続連絡あり
+賃貸管理,A,株式会社クレアスレント,小針 啓,h-kobari@clearthlifegrp.jp,clearthlifegrp.jp,賃貸管理/修繕,high,MAHALO TERRACE 本蓮沼のテレビ修理・交換指示
+賃貸管理,A,株式会社クレアスレント,山本 琉介,r-yamamoto@clearthlifegrp.jp,clearthlifegrp.jp,賃貸管理/原状回復,high,MAHALO TERRACE 本蓮沼103号室の原状回復工事
+賃貸管理,A,株式会社クレアスレント,河井 晋太郎,s-kawai@clearthlifegrp.jp,clearthlifegrp.jp,賃貸管理/リーシング,high,MAHALO TERRACE 本蓮沼の募集・週次レポート依頼
+賃貸管理,A,株式会社JPMC,新野 陸,tokyo@jpmc.jp,jpmc.jp,不動産管理/一括借上げ,high,仙台前ルート・川崎レジデンスの管理/査定相談
+要確認,A,株式会社富士建設工業,鈴木 幸司,k_suzuki_fujiken@yahoo.co.jp,yahoo.co.jp,建設/不動産関連,medium,西所沢物件・銀行紹介相談。建設会社かつ個人メールのため業者区分は要確認
+要確認,A,不明/善福寺二丁目物件窓口,,s.zyucenter@gmail.com,gmail.com,売買仲介候補,medium,杉並区善福寺二丁目物件資料請求。会社名未取得・Gmailのため要確認
