@@ -1,0 +1,4 @@
+email,company,name,status,consent,last_sent_at,bounce_count,note
+agent@example.com,○○不動産,田中,active,yes,,0,
+stopped@example.com,△△不動産,佐藤,stopped,yes,,0,停止依頼あり
+pending@example.com,□□不動産,鈴木,active,no,,0,未承諾
