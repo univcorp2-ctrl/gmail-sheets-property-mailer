@@ -1,0 +1,7 @@
+key,value
+SENDER_NAME,物件配信
+REPLY_TO,your-address@gmail.com
+TEST_MODE,true
+TEST_EMAIL,your-address@gmail.com
+MAX_SEND_PER_RUN,20
+UNSUBSCRIBE_TEXT,配信停止をご希望の場合は、このメールに返信してください。
